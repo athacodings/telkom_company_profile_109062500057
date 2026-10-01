@@ -10,7 +10,7 @@ require 'includes/header.php';
             <h1>Kirim pesan</h1>
             <p class="lead">Form ini mendemonstrasikan proses INSERT ke database dengan prepared statement.</p>
             <?php if($success): ?>
-            <div class="alert alert-success">Pesan berhasil disimpan ke database.</div>
+            <div class="alert alert-success">Pesan berhasil disimpan.</div>
             <?php endif; ?>
         </div>
         <form class="card" action="contact_process.php" method="post">
